@@ -1,0 +1,25 @@
+# --- Secrets : ne JAMAIS versionner ---
+.env
+.env.*
+!.env.example
+*.bak
+*REVOQUER*
+
+# --- Résultats d'exécution Robot Framework ---
+results/
+*.png
+log.html
+report.html
+output.xml
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Windows / éditeurs ---
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
